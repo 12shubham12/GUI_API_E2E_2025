@@ -28,7 +28,7 @@ public class BaseClass {
     public ContactListPage clp;
 
 
-    @BeforeSuite
+    @BeforeTest
     public void setup(){
         config = new ConfigReader();
         excel = new ExcelReader();
